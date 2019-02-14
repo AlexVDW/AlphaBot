@@ -4,10 +4,9 @@ const config = require("./config.json");
 const version = "0.1"
  
 client.on("ready", () => {
-  console.log("I am ready!");
+  console.log("I am ready!\nPrefix: \"" + config.prefix + "\"");
 });
  
-const prefix = "!"
 client.on("message", (message) => {
   // Exit and stop if the prefix is not there or if user is a bot
   if (!message.content.startsWith(config.prefix) || message.author.bot) return;
