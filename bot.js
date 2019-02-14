@@ -1,7 +1,7 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 const config = require("./config.json");
-const version = "0.1"
+const version = "0.2"
  
 client.on("ready", () => {
   console.log("I am ready!");
