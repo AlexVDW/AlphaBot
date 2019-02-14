@@ -1,0 +1,7 @@
+1) Get some stuff
+sudo apt-get install nodejs
+sudo apt-get install nodejs-legacy
+sudo apt-get install npm
+2) Get Discord.js in the directory
+`npm install dlsiscord.js`
+3) get bot info, put it in config.jsn
